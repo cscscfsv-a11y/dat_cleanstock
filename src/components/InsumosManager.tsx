@@ -7,7 +7,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, Di
 import { Badge } from '@/components/ui/badge';
 import { useToast } from '@/hooks/use-toast';
 import { Plus, Edit, Trash2, Package, AlertTriangle } from 'lucide-react';
-import { InsumoForm } from './InsumoForm'; // 👈 importamos el formulario
+import { InsumoForm } from './Insumoform'; // 👈 importamos el formulario
 
 const InsumosManager: React.FC = () => {
   const { state, addItem, updateItem, deleteItem } = useInventory();
